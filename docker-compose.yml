@@ -8,6 +8,6 @@ mysql:
     - MYSQL_USER=springuser
     - MYSQL_PASSWORD=1903
     - MYSQL_DATABASE=db_mysql
-    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_ROOT_PASSWORD=1903
   volumes:
     - "./conf.d:/etc/mysql/conf.d:ro"
