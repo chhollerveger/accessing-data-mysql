@@ -11,3 +11,10 @@ This is a Spring Boot application linked to a MySQL database image in Docker con
 - MySQL
 - Valentina Studio
 - Postman
+
+**Useful commands:**
+- docker run -p3306:3306 mysql
+- docker run -p3306:3306 -eMYSQL_ROOT_PASSWORD=1903 mysql
+- docker-compose up -d
+- ./mvnw spring-boot:run
+
